@@ -1,0 +1,56 @@
+body{
+    background-color: #F7DF95;
+}
+
+
+h1{
+    font-family: Rye;
+    font-size: 80px;
+    text-align: center;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    color: #545F95;
+    margin-top: 1rem;
+}
+
+h1::first-letter{
+    font-size: 2em;
+    color: #E93F25;
+}
+
+#description{
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#prereq{
+    text-align: center;
+    font-family: Bungee Tint;
+    font-size: 50px;
+}
+
+#images{
+    position: relative;
+    left: 40rem;
+    right: 10rem;
+}
+
+.gallery{
+    display: inline-block;
+    border: 2px dotted #000000;
+    margin: 10px;
+}
+
+.gameName{
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 20px;
+}
+
+.gallery:hover{
+    border: solid;
+}
+
+
